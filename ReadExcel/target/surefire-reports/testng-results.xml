@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-24T23:57:08 IST" name="Suite" finished-at="2025-04-24T23:58:19 IST" duration-ms="71238">
+    <groups>
+    </groups>
+    <test started-at="2025-04-24T23:57:08 IST" name="Test" finished-at="2025-04-24T23:58:19 IST" duration-ms="71238">
+      <class name="Week6.marathon3.testng.SalesForceDeleteOpportunity">
+        <test-method is-config="true" signature="precondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Week6.marathon3.testng.SalesForceDeleteOpportunity@48075da3]" started-at="2025-04-24T23:57:55 IST" name="precondition" finished-at="2025-04-24T23:57:58 IST" duration-ms="3037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vidyar@testleaf.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sales@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="deleteOpportunity()[pri:0, instance:Week6.marathon3.testng.SalesForceDeleteOpportunity@48075da3]" started-at="2025-04-24T23:57:58 IST" name="deleteOpportunity" finished-at="2025-04-24T23:58:19 IST" depends-on-methods="Week6.marathon3.testng.SalesForceCreateOpportunity.createOpportunity" duration-ms="20593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOpportunity -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:Week6.marathon3.testng.SalesForceDeleteOpportunity@48075da3]" started-at="2025-04-24T23:58:19 IST" name="postcondition" finished-at="2025-04-24T23:58:19 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Week6.marathon3.testng.SalesForceDeleteOpportunity -->
+      <class name="Week6.marathon3.testng.SalesForceEditOpportunity">
+        <test-method is-config="true" signature="getFilepath()[pri:0, instance:Week6.marathon3.testng.SalesForceEditOpportunity@8458f04]" started-at="2025-04-24T23:57:08 IST" name="getFilepath" finished-at="2025-04-24T23:57:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFilepath -->
+        <test-method is-config="true" signature="precondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Week6.marathon3.testng.SalesForceEditOpportunity@8458f04]" started-at="2025-04-24T23:57:32 IST" name="precondition" finished-at="2025-04-24T23:57:40 IST" duration-ms="8466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vidyar@testleaf.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sales@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="editOpportunity(java.lang.String,java.lang.String)[pri:0, instance:Week6.marathon3.testng.SalesForceEditOpportunity@8458f04]" started-at="2025-04-24T23:57:40 IST" name="editOpportunity" data-provider="fetchData" finished-at="2025-04-24T23:57:55 IST" depends-on-methods="Week6.marathon3.testng.SalesForceCreateOpportunity.createOpportunity" duration-ms="14922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Salesforce Automation by Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Salesforce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editOpportunity -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:Week6.marathon3.testng.SalesForceEditOpportunity@8458f04]" started-at="2025-04-24T23:57:55 IST" name="postcondition" finished-at="2025-04-24T23:57:55 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Week6.marathon3.testng.SalesForceEditOpportunity -->
+      <class name="Week6.marathon3.testng.SalesForceCreateOpportunity">
+        <test-method is-config="true" signature="getFilepath()[pri:0, instance:Week6.marathon3.testng.SalesForceCreateOpportunity@3ba987b8]" started-at="2025-04-24T23:57:08 IST" name="getFilepath" finished-at="2025-04-24T23:57:08 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFilepath -->
+        <test-method is-config="true" signature="precondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Week6.marathon3.testng.SalesForceCreateOpportunity@3ba987b8]" started-at="2025-04-24T23:57:09 IST" name="precondition" finished-at="2025-04-24T23:57:13 IST" duration-ms="3767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vidyar@testleaf.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sales@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="createOpportunity(java.lang.String,java.lang.String)[pri:0, instance:Week6.marathon3.testng.SalesForceCreateOpportunity@3ba987b8]" started-at="2025-04-24T23:57:13 IST" name="createOpportunity" data-provider="fetchData" finished-at="2025-04-24T23:57:31 IST" duration-ms="18323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Salesforce Automation by Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[75000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOpportunity -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:Week6.marathon3.testng.SalesForceCreateOpportunity@3ba987b8]" started-at="2025-04-24T23:57:31 IST" name="postcondition" finished-at="2025-04-24T23:57:31 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Week6.marathon3.testng.SalesForceCreateOpportunity -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
