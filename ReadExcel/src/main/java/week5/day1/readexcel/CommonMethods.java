@@ -17,6 +17,7 @@ public class CommonMethods {
 	WebDriver driver;
 	public String filepath; // declaring the global variable to mention the dataprovider filepath
 
+	//Parameterization
 	@Parameters({ "url", "browser","username","password" })
 	@BeforeMethod
 
